@@ -1,0 +1,626 @@
+/* #p1 {
+
+  color: green;
+
+}
+
+#p2 {
+
+
+  color: red;
+
+}
+
+#p3 {
+
+  color: blue;
+
+}
+
+#p4 {
+
+   color: steelblue;
+
+} 
+
+body {
+
+   background-color: rgb(41,41,41);
+
+}
+
+.odd {
+
+   color: #ae5bd4;
+
+}
+
+.even {
+
+   color: rgb(239, 239, 30);
+
+} 
+
+
+h1 {
+ 
+    border: 3px solid tomato;
+    border-radius: 5px;
+
+}
+
+
+p {
+
+   border-bottom: 3px solid lightblue;
+   border-top: 3px solid thistle;
+   border-left: 3px dotted orange;
+   border-right: 3px dotted green;
+
+   border-radius: 8px;
+
+} 
+
+
+h1 {
+
+  text-shadow: 3px 3px 5px red, -3px -3px 5px lightskyblue;
+
+}
+
+#box1 {
+
+   width: 100px;
+   height: 100px;
+   background-color: lightgrey;
+   box-shadow: 3px 3px 5px;
+
+}
+
+
+
+
+.box {
+
+  border: 5px solid;
+  font-size: 5em;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  
+}
+
+#box1 {
+
+  background-color: tomato;
+
+
+}
+
+#box2 {
+
+  background-color: aquamarine;
+
+}
+
+
+
+body {
+
+  border: 3px solid;
+  display: flow-root;
+
+}
+
+#img1 {
+
+   float: left;
+
+   margin-right: 10px;
+}
+
+#img2 {
+
+    float: right;
+    margin-right: 10px;
+
+}
+
+
+
+div {
+
+  border: 2px solid;
+  height: 60px;
+  overflow: auto;
+
+} 
+
+div {
+
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+span {
+
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  
+} */
+
+/* * {
+
+  box-sizing: border-box;
+
+}
+
+.box {
+
+  border: 2px solid;
+  padding: 25px;
+  height: auto;
+  width: 50%;
+  float: left;
+  text-align: center;
+
+  min-width: 75%;
+
+} 
+
+
+#box1 {
+
+  width: 200px;
+  height: 200px;
+  background-color: rgb(19, 206, 243);
+  position: sticky;
+  top: 0px;
+
+}
+
+#box2 {
+
+  width: 100px;
+  height: 100px;
+  background-color: rgb(177, 24, 24);
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+}
+
+body {
+
+   background-image: url(/images/background1.jpg);
+
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+
+
+a:link {
+ 
+  color: darkblue;
+
+}
+
+a:hover {
+
+   color: blue;
+   font-size: 1.1em;
+
+}
+
+a:active {
+
+   color: red;
+   font-size: 1.1em;
+
+} 
+
+li:hover {
+
+  background-color: blue;
+
+}
+
+li:not(:hover) {
+
+  background-color: grey;
+
+} 
+
+li:nth-child(2n) {
+
+background-color: yellow;
+
+} 
+
+#greeting p {
+
+  background-color: rgb(23, 175, 234);
+
+  padding: 10px;
+
+  display: none;
+
+}
+
+#greeting:hover p{
+
+   display: block;
+   
+
+}
+
+
+
+h1::first-letter {
+
+  font-size: 2em;
+  font-style: italic;
+}
+
+p::first-line {
+
+  background-color: yellow;
+
+}
+
+p::selection {
+
+   color: green;
+   background-color: gray;
+
+}
+
+#fruits li::before {
+
+   content: "✔️"; 
+
+}
+
+#apple::after {
+
+  content: "🍎";
+
+}
+
+#grape::after {
+
+  content: "🍇";
+
+}
+
+
+#banana::after {
+
+  content: "🍌";
+
+}
+
+#fruits li::marker {
+
+  content: "✔️";
+  font-size: 1.5em;
+
+}
+
+
+
+.pagination {
+
+   text-align: center;
+
+}
+
+.pagination a {
+
+  color: black;
+  text-decoration: none;
+  padding: 8px 15px;
+  display: inline-block;
+
+}
+
+.pagination a.active {
+
+  background-color: greenyellow;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+.pagination a:hover:not(.active) {
+
+  background-color: grey;
+  border-radius: 5px;
+
+} 
+
+.dropdown{
+
+  display: inline;
+
+}
+
+.dropdown button {
+
+   background-color: rgb(222, 66, 66);
+
+   color: cornsilk;
+
+   padding: 10px 15px;
+
+   border: none;
+
+   border-radius: 5px;
+
+   cursor: pointer;
+
+}
+
+.dropdown a{
+
+   display: block;
+   color: black;
+   text-decoration: none;
+   padding: 10px 15px;
+   
+
+}
+
+.dropdown .content {
+   display: none;
+   position: absolute;
+   background-color: gray;
+   min-width: 100px;
+   box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content {
+
+  display: block;
+
+}
+
+.dropdown:hover button {
+
+   background-color: tomato;
+
+}
+
+.dropdown a:hover {
+
+    background-color: lightgray;
+
+} 
+
+body {
+
+  margin: 0px;
+
+}
+
+main{
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+h1 {
+
+  text-align: center;
+
+}
+
+.navbar ul{
+
+   list-style-type: none;
+   background-color: black;
+   padding: 0px;
+   margin: 0px;
+   overflow: hidden;
+}
+
+.navbar a{
+
+   color: whitesmoke;
+   text-decoration: none;
+   padding: 15px;
+   display: block;
+   text-align: center;
+}
+
+.navbar a:hover {
+
+  background-color: grey;
+
+}
+
+.navbar li {
+
+  float: left;
+
+} 
+
+.gallery {
+
+  display: inline-block;
+  border: 1px solid gainsboro;
+  margin: 5px;
+  width: 200px;
+}
+
+.gallery .description {
+
+   padding: 10px;
+   text-align: center;
+
+}
+
+.gallery:hover {
+
+  border: 5px solid darkslategrey;
+
+}
+
+.gallery img {
+
+  width: 100%;
+  height: auto;
+
+} 
+
+ .container{
+  
+  display: flex;
+  /* flex-direction: column-reverse; 
+  border: 10px solid black;
+  height: 90vh;
+  /* justify-content: space-between; 
+  /* align-items: center; 
+  /* flex-wrap: wrap;
+  align-content: flex-start; 
+ }
+
+.box {
+
+   width: 150px;
+   height: 150px;
+   font-size: 6em;
+   text-align: center;
+   border-radius: 5px;
+
+}
+
+#box1 {
+
+  background-color: red;
+  
+
+}
+
+#box2 {
+
+  background-color: yellow;
+  align-self: end;
+
+}
+
+#box3 {
+
+  background-color: green;
+
+}
+
+#box4 {
+
+  background-color: blue;
+
+}
+
+
+
+
+*/
+
+#box{
+
+   width: 250px;
+   height: 250px;
+   background-color: red;
+   font-size: 10em;
+   text-align: center;
+   animation-name: colorChange;
+   animation-duration: 3s;
+}
+
+@keyframes slideLeft {
+
+   from{transform: translateX(300%)}
+
+}
+
+@keyframes slideRight {
+
+  to{transform: translateX(300%)}
+
+}
+
+@keyframes slideUp {
+
+  from{transform: translateY(300%)}
+
+}
+
+@keyframes slideDown {
+
+  to{transform: translateY(300%)}
+
+}
+
+@keyframes rotate {
+
+35%{transform: rotateZ(360deg)}
+
+}
+
+@keyframes grow {
+
+  50%{transform: scale(2,2)}
+  
+  }
+
+  @keyframes shrink {
+
+    50%{transform: scale(2,2)}
+    
+  }
+
+  @keyframes fade {
+
+    100%{opacity: 0;}
+
+  }
+
+  @keyframes colorChange {
+
+    0%{background-color: yellow}
+    20%{background-color: red}
+    40%{background-color: blue}
+    60%{background-color: orange}
+    100%{background-color: black}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
