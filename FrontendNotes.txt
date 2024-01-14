@@ -326,6 +326,234 @@ User Input
 Type Conversion = it will change the datatype of a value to another 
 (String, numbers, booleans)
 
+05/01/2024 - 9:20Am
+
+Primitive and non Primitive 
+
+Primitive ---> we can able to store only one value in variable
+
+int a = 12;
+
+byte 
+short
+int 
+long
+
+float
+double
+
+char
+
+boolean
+
+non Primitive --> we can able to multiple value in a single variable 
+
+a = 2,"word",'a',12.45f, true;
+
+Array, String, DS concepts(tree,stack, list, etc), COllections
+
+Const ---> varaible that can't be changed
+
+
+Javascript Math function 
+
+
+Tasks
+
+Required Refrences Links for task
+
+1) Colour Picker extensions link:- https://chromewebstore.google.com/detail/color-picker/plkgncpmcodceeghncefaiohiekknelh
+
+2) Task UI Demo link :- https://www.zomato.com/chennai
+
+
+String and String functions
+
+String :- collection of characters or group of words, special characters and numbers, it must be enclosed with in the single quotes or double quotes is called String
+
+
+
+String - slice() - it will extract of a string and return it as a new string without modify the original string.
+
+Method Chaining --> calling one method after another in one continous line of code.
+
+
+Conditional Statements in Javascript
+
+a basic of form of decision making, if a condition is true, then we do something, if not then we dont't do it!
+
+types of CS 
+
+if, if else, nested if else Statements or if else if  
+
+if
+
+if() {
+
+
+
+}
+
+if else 
+
+if() {
+
+
+
+} else {
+
+
+
+}
+
+
+if else if statement 
+
+if() {
+
+
+
+} else if() {
+
+
+
+} else if() {
+
+
+ 
+} else if() {
+
+
+    
+  }
+
+else {
+
+
+  
+}
+
+
+switches in JS ---->it is statement that examines a value for a match against many case clauses.
+
+More efficient that many "else if " statements
+
+AND and OR operator 
+
+&& AND (Both conditions must be true)
+
+|| OR (Either condition can be true)
+
+
+
+! NOT --> Typically used to reverse a condition's of boolean value 
+
+True ---> False
+
+False --> True
+
+Control statements or Looping Statement.
+
+Initialization --> were we need to start
+
+Condition --> were we stop, this will run based true or false, if  condition true loop will execute otherwise it will stop
+
+Iteration --> increase or decrease the value.
+
+i++ = i + 1 --> Increment operator (Post increment)
+
+++i = 1 + i --> pre increment
+
+i-- = i - 1 --> Decrement operator ((Post decrement))
+
+--i --> pre decrement
+
+types of loops
+
+while --> entry control loop
+
+, do while loop --> exit control loop
+
+let i = 1;
+
+do {
+
+ console.log(i);
+
+ i = i + 1;
+
+}while(i<=10);
+
+
+for loop 
+
+Break and Continue statements
+
+Break --> It will terminate the loop
+
+continue --> it will skip the particular Iteration
+
+
+nested loop 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
