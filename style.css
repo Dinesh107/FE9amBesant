@@ -533,7 +533,7 @@ h1 {
 
 */
 
-#box{
+/* #box{
 
    width: 250px;
    height: 250px;
@@ -600,8 +600,25 @@ h1 {
     60%{background-color: orange}
     100%{background-color: black}
 
-  }
+  } */
 
+
+/* #myDiv {
+
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+
+} */
+
+/* #innerDiv{
+
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+
+} */
 
 
 

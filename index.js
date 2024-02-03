@@ -447,19 +447,19 @@ console.log(students);
      
 // }
 //    1          2    4
-for(let i = 1; i<=10; i++) { // i = 4, i =3, i =2, i=1, i = 0
+// for(let i = 1; i<=10; i++) { // i = 4, i =3, i =2, i=1, i = 0
 
-//3rd 
+// //3rd 
 
-   if(i == 9) {
+//    if(i == 9) {
 
-      continue;
+//       continue;
 
-   }
+//    }
    
-   document.write(i, "<br>");
+//    document.write(i, "<br>");
 
-}
+// }
 
 /*
  
@@ -505,6 +505,958 @@ for(let i = 1; i<=10; i++) { // i = 4, i =3, i =2, i=1, i = 0
   1
   222222
  */
+
+// Nested Loop :- a loop inside of another loop 
+
+
+
+// for(let i = 1; i<=3; i+=1) {// i =1,2,3,4 
+
+//    for(let j = 1; j<=i; j+=1) { //j=1,2,3,4
+
+//       document.write(1, " ", 2, " ");
+
+//   }
+
+//    document.write("<br>");
+
+// }
+
+// let symbol = window.prompt("Symbol to use");
+
+// let rows = window.prompt("Enter the rows");
+
+// let colums = window.prompt("Enter the colums");
+
+// for(let i = 1; i<=rows; i+=1) {// i =1,2,3,4 
+
+//    for(let j= 1; j<=colums; j+=1) { //j=1,2,3,4
+
+//      document.getElementById("myRectangle").innerHTML += symbol;
+
+//   }
+
+//    document.getElementById("myRectangle").innerHTML += "<br>"
+
+// }
+
+
+// Functions :- Define code once, and use it for many times, 
+// To perform some code, call the function name
+// let userName = "Aslam";
+// let age = 20;
+// happyBirthday();
+// happyBirthday();
+// happyBirthday();
+// function happyBirthday() {
+// console.log("Happy birthday to you");
+// console.log("Happy birthday to you");
+// console.log("Happy birthday dear you ", userName);
+// console.log("Happy birthday to you");
+// console.log("You are", age, "years old");
+// }
+
+// let userName = "Ganesh";
+
+// let items = 3;
+
+// let total = 75;
+
+// console.log("Hello", userName);
+
+// console.log("You Have", items, "items in your cart");
+
+// console.log("Your total is $", total);
+
+// console.log(`Hello ${userName} `);
+
+// console.log(`You have ${items} items in your cart`);
+
+// console.log(`Your total is $${total}`);
+
+// let text = `Hello ${userName}
+
+// You have ${items} items in your cart
+
+// Your total is $${total}`;
+
+// console.log(text);
+
+// let fruits = ["apple", "Grape", "Banana"];
+
+// fruits[0] = "coconut";
+
+// fruits.push("lemon"); // it will add an element
+
+// fruits.pop(); // removes last element
+
+// fruits.unshift("mango"); // add element to beginning
+
+// fruits.shift(); // it will remove the 1st element
+
+// let length = fruits.length;
+
+// let index = fruits.indexOf("kiwi")
+
+// console.log(length);
+
+// console.log(index);
+
+// console.log(fruits);
+
+let prices = [10, 20, 30, 40];
+
+//                   4
+// for(let i = 0; i < prices.length; i+=1) {// i=4
+
+//    console.log(prices[i]);
+
+//    i+=1; // 3
+
+// }
+
+//              3
+// for(let i = prices.length-1; i>=0; i-=1) {// i=-1
+
+//   console.log(prices[i]);
+
+// }
+
+
+// for upstatement
+
+
+// for(let price of prices) {
+
+//   console.log(price);
+
+// }
+
+// let fruits = ["banana", "apple", "orange", "mango"];
+
+// // fruits = fruits.sort();
+
+// fruits = fruits.sort().reverse();
+
+// for(let fruit of fruits) {
+
+//    console.log(fruit);
+
+// }
+
+// 2D Array = An array which is made up of an arrays
+
+
+// let fruits =     ["bananas", "apples", "oranges"];
+// let vegetables = ["carrots", "onions", "potatoes"];
+// let meat =       ["eggs", "chicken", "fish"];
+
+
+// let groceryList = [fruits, vegetables, meat];
+
+// groceryList[0][1] = "mangoes";
+
+// for(let list of groceryList) {
+
+//    for(let food of list) {
+
+//      console.log(food);
+
+//    }
+
+// let numbers = [1,2,3,4,5,6,7,8,9];
+
+// let maximum = Math.max(...numbers);
+
+// console.log(maximum);
+
+// const array1 = [1, 2, 3];
+
+// const array2 = [4, 5, 6];
+
+// const mergedArray = [
+//       ...array1, 
+//       ...array2
+// ];
+
+// console.log(mergedArray);
+
+
+// function sum(...numbers) {
+
+//    console.log(numbers);
+
+// }
+
+
+// sum(1,2,3,4,5,6,7);
+
+
+// let total = sum(2,3);
+
+// displayConsole(total);
+
+// displayDOM(total);
+
+// function sum(x, y) {
+
+//     let result = x + y;
+
+//     return result;
+
+// }
+
+
+// sum(2,3, displayConsole);
+
+// function sum(x, y, callBack) {
+
+//     let result = x + y;
+ 
+//     callBack(result);
+    
+// }
+
+
+
+// function displayConsole(output) {
+
+//    console.log("The result is:-", output);
+
+// }
+
+// function displayDOM(output) {
+
+//    document.getElementById("myLabel").innerHTML = output;
+
+// }
+
+// let students = ["ganesh", "aslam", "john"];
+
+// students.forEach(capitalize);
+
+// students.forEach(print);
+
+// function capitalize(element, index, array) {
+
+//    array[index] = element[0].toUpperCase() + element.substring(1); 
+
+// }
+
+// function print(element) {
+
+//    console.log(element);
+
+// }
+
+
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let squares = numbers.map(sqaure);
+// let cubes = numbers.map(cube);
+
+// squares.forEach(print);
+// cubes.forEach(print);
+
+
+// function sqaure(element) {
+
+//   return Math.pow(element, 2);
+
+// }
+
+// function cube(element) {
+
+//    return Math.pow(element, 3);
+
+// }
+
+// function print(element) {
+
+//  console.log(element);
+
+// }
+
+// greeting();
+
+// function greeting() {
+
+//   console.log("Hello Students");
+
+// }
+
+// const greeting = function() {
+
+//   console.log("Hello Students");
+
+// }
+
+// let count = 0;
+
+// document.getElementById("increaseBtn").onclick = function() {
+
+//      count+=1;
+
+//     document.getElementById("myLabel").innerHTML = count;
+
+// }
+
+// document.getElementById("decreaseBtn").onclick = function()  {
+
+//   count-=1;
+
+//   document.getElementById("myLabel").innerHTML = count;
+
+// }
+
+// function increaseCount() {
+
+//   count+=1;
+
+//   document.getElementById("myLabel").innerHTML = count;
+
+// }
+
+// function decreaseCount() {
+
+  // count-=1;
+
+  // document.getElementById("myLabel").innerHTML = count;
+
+// }
+
+// greeting();
+
+
+
+// const greeting1 = function(userName) {
+
+//      console.log(`hello ${userName}`);
+   
+// }
+
+// const greeting2 = (userName) => console.log(`hello ${userName}`);
+
+
+// greeting2("StudentsList2");
+
+// const percent = function(x, y) {
+
+//   return x / y * 100;
+
+// }
+
+// const percent = (x, y) => x / y * 100;
+
+// console.log(`${percent(90, 100)}%`);
+
+// let userName = "Student1"
+
+// let userInbox = 5;
+
+// login();
+
+// function login() {
+
+//   displayUserName();
+//   displayInbox();
+
+//   function displayUserName() {
+
+//     console.log(`Welcome ${userName}`);
+ 
+//  }
+
+//  function displayInbox() {
+
+//   console.log(`You have ${userInbox} new messages`);
+
+// }
+
+// }
+
+
+// const store= new Map([ 
+
+//   ["NonFictionbook", 50],
+//   ["Pen", 20],
+//   ["Marker", 15],
+//   ["Pencil", 8]
+
+// ]);
+
+// let shoppingCart = 0;
+
+// shoppingCart += store.get("Pen");
+// shoppingCart += store.get("Pencil");
+// shoppingCart += store.get("NonFictionbook");
+
+// store.set("LaptopStand", 250);
+// store.delete("LaptopStand");
+
+
+// console.log(store.has("Pen"));
+
+// console.log(store.size);
+
+// console.log(shoppingCart);
+
+// store.forEach((value, key) => console.log(`${key} ₹${value}`));
+
+
+// const car1 = {
+
+//   model:"Nexon",
+//   color:"red",
+//   year:2023,
+
+//   drive : function() {
+ 
+//     console.log(`You drive the ${this.model}`);
+
+//   },
+  
+//   brake : function() {
+ 
+//     console.log("You step on the brakes");
+
+//   }
+
+// }
+
+
+// const car2 = {
+
+//   model:"Altroz",
+//   color:"White",
+//   year:2024,
+
+//   drive : function() {
+ 
+//     console.log(`You drive the ${this.model}`);
+
+//   },
+  
+//   brake : function() {
+ 
+//     console.log("You step on the brakes");
+
+//   }
+
+// }
+
+
+// console.log(car1.model);
+// console.log(car1.year);
+// console.log(car1.color);
+
+// car1.brake();
+// car1.drive();
+
+
+// console.log(car2.model);
+// console.log(car2.year);
+// console.log(car2.color);
+
+// car2.brake();
+// car2.drive();
+
+// class Player {
+
+//   score = 0;
+
+//   pause() {
+
+//     console.log("You Paused the Game");
+
+//   }
+
+//   exit() {
+
+//     console.log("You exited the game");
+
+//   }
+
+// }
+
+// const player1 = new Player();
+// const player2 = new Player();
+// const player3 = new Player();
+// const player4 = new Player();
+
+
+// player1.score += 1;
+
+// console.log(player1.score);
+
+// player1.pause();
+// player1.exit();
+
+
+
+
+
+// player2.score += 5;
+
+// console.log(player2.score);
+
+// player2.pause();
+// player2.exit();
+
+
+
+// class Student {
+
+//    constructor(name,age,grade) {
+
+//       this.name = name;
+//       this.age = age;
+//       this.grade = grade;
+
+//    }
+
+//    study() {
+ 
+//      console.log(`${this.name} is studying`);
+
+//    }
+
+// }
+
+// const student1 = new Student("Ganesh", 20, 3.5);
+
+// const student2 = new Student("Aslam", 21, 4.5);
+
+// const student3 = new Student("John", 22, 4.7);
+
+
+
+// console.log(student1.name);
+// console.log(student1.grade);
+// console.log(student1.age);
+
+// student1.study();
+
+// console.log(student2.name);
+// console.log(student2.grade);
+// console.log(student2.age);
+
+// student2.study();
+
+// console.log(student3.name);
+// console.log(student3.grade);
+// console.log(student3.age);
+
+// student3.study();
+
+
+
+// class Animals {
+
+//   alive = true;
+  
+//   eat() {
+
+//     console.log(`This ${this.name} is eating`);
+ 
+//     }
+ 
+//     sleep() {
+ 
+//      console.log(`This ${this.name} is sleeping`);
+ 
+//     }
+
+// }
+
+
+
+// class Rabbit extends Animals{
+
+//    name = 'rabbit'
+
+//    run() {
+
+//     console.log(`This ${this.name} is running`);
+
+//    }
+
+// }
+
+
+// class Fish extends Animals {
+
+//   name = 'fish'
+
+//   swim() {
+
+//     console.log(`This ${this.name} is swiming`);
+
+//   }
+
+// }
+
+// class Parrot extends Animals {
+
+//   name = 'parrot'
+
+//   fly() {
+
+//     console.log(`This ${this.name} is flying`);
+
+//   }
+
+// }
+
+
+
+
+// const rabbit = new Rabbit();
+
+
+// console.log(rabbit.alive);
+// rabbit.eat();
+// rabbit.run();
+// rabbit.sleep();
+
+// const fish = new Fish();
+
+// console.log(fish.alive);
+// fish.eat();
+// fish.swim();
+// fish.sleep();
+
+
+// const parrot = new Parrot();
+// console.log(parrot.alive);
+// parrot.eat();
+// parrot.fly();
+// parrot.sleep();
+
+
+
+// class Car {
+
+//     constructor(model, year, color) {
+
+//         this.model = model;
+//         this.year = year;
+//         this.color = color;
+
+//     }
+
+//     drive() {
+
+//       console.log(`You drive the ${this.model}`);
+
+//     }
+
+// }
+
+
+// const car1 = new Car("Nexon", 2023, "red");
+
+// const car2 = new Car("Seltos", 2024, "blue");
+
+// const car3 = new Car("Carnival", 2022, "black");
+
+
+// changeColor(car1, "Silver");
+// displayInfo(car1);
+
+// changeColor(car2, "Gold");
+// displayInfo(car2);
+
+// changeColor(car3, "White");
+// displayInfo(car3);
+
+// function displayInfo(car) {
+
+//   console.log(car.model);
+//   console.log(car.year);
+//   console.log(car.color);
+
+// }
+
+// function changeColor(car, color) {
+
+//   car.color = color;
+
+// }
+
+
+// class Car {
+
+//   constructor(model, year, color) {
+
+//       this.model = model;
+//       this.year = year;
+//       this.color = color;
+
+//   }
+
+//   drive() {
+
+//     console.log(`You drive the ${this.model}`);
+
+//   }
+
+// }
+
+// const car1 = new Car("Nexon", 2023, "red");
+
+// const car2 = new Car("Seltos", 2024, "blue");
+
+// const car3 = new Car("Carnival", 2022, "black");
+
+// const cars = [car1, car2, car3];
+
+// console.log(cars[0].color);
+// console.log(cars[0].model);
+// console.log(cars[1].model);
+// console.log(cars[2].model);
+// console.log(cars[0].year);
+
+// cars[0].drive();
+// cars[1].drive();
+// cars[2].drive();
+
+
+// const promise = new Promise(
+
+//   (resolve, reject) => {
+
+//     let fileLoaded = false;
+
+//     if(fileLoaded) {
+
+//       resolve("File Loaded Successfully");
+
+//     } else {
+  
+//        reject("File Not Loaded");
+
+//     }
+
+//   }
+// );
+
+// promise.then(
+//   value => {
+//     console.log(value);
+//   })
+
+//   .catch(error => console.log(error));
+
+
+
+// const element = document.getElementById("myButton");
+
+// const element = document.body;
+
+// element.onload = doSomeWork;
+
+// element.onclick = doSomeWork;
+
+// const element = document.getElementById("myText");
+
+// element.onchange = doSomeWork; 
+
+// const element = document.getElementById("myDiv");
+
+// element.onmouseover = doSomeWork;
+
+// element.onmouseout = doSomeMoreWork;
+
+// element.onmousedown = 
+
+// element.onmouseup = 
+
+
+
+
+
+// function doSomeWork() {
+
+//   // alert("You did some work");
+//   element.style.backgroundColor = "red";
+
+// }
+
+
+// function doSomeMoreWork() {
+
+//   element.style.backgroundColor = "tomato";
+
+// }
+
+
+// const innerDiv = document.getElementById("innerDiv");
+
+// innerDiv.addEventListener("mouseover", changeRed);
+
+// innerDiv.addEventListener("mouseout", changeGreen);
+
+// function changeRed() {
+
+//    innerDiv.style.backgroundColor = "red";
+
+// }
+
+// function changeGreen() {
+
+//   innerDiv.style.backgroundColor = "green";
+
+// }
+
+// document.cookie = "firstName=Ganesh; expires=Sun, 1 February 2024 12:00:00 UTC; path=/;";
+
+// document.cookie = "firstName=Ganesh; expires=Sun, 1 February 2024 12:00:00 UTC; path=/;";
+
+// document.cookie = "firstName=Ganesh; expires=Sun, 1 February 2024 12:00:00 UTC; path=/;";
+
+// console.log(document.cookie);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

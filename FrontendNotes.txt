@@ -493,8 +493,181 @@ Break --> It will terminate the loop
 
 continue --> it will skip the particular Iteration
 
-
 nested loop 
+
+Functions 
+
+Return statement in JS 
+
+return a value back to the place where you invoked a function.
+
+Ternary operator
+
+shortcut for an if/else statement
+
+it takes 3 operands 
+
+a condition ? :
+expressions if true :
+expressions if false 
+
+
+// condition ? expressioniftrue : expressionifFalse
+
+
+Template Literals - delimited with (`) --> backticks
+
+instead of double quotes or single quotes, where it allows emedded variables and expressions
+
+Array in JS ---> think of it as a variable, that can store multiple values
+
+Spread Operator --> it allows an iterable such as an array or string to be expanded in places where zero or more arguments are expected.
+(unpacks the elements)
+
+Rest Operator ---> it can be only used in function parameters or destructuring, it allows a function to accept a infinite of arguments and collect them as array.
+
+callback = a function passed as an argument to another function.
+
+array.forEach(element, index, array); ---> executes a provided callback function once for each array element.
+
+array.map() --> executes a provided callback function once for each array element. and creates new array.
+
+Function expressions ----> function without a name 
+
+arrow functions = compact alternative to a traditional function or normal function
+=> 
+
+
+nested functions --> functions inside other functions
+
+outer functions have access to inner functions
+
+inner functions are hidden from outside 
+
+
+Map = inbuild object whereas it hold key-value pairs of any data-types
+
+101 = "ganesh"
+
+102 = "aslam"
+
+103 = "john"
+
+
+Objects in Javascript
+
+OOPS ----> Javascript is Object Oriented Programming Structure 
+
+Object --> a group of properties and methods 
+
+Properties ---> what an object has
+
+methods --> what an object can do 
+
+use . to access properties/methods
+
+this ---> reference to particular pbject 
+
+class in js ---> it is blueprint for creating objects.
+
+define what properties and methods they have
+
+use a constructor for unique properties
+
+
+
+Constructors --> it is special method of a class were it will accept arguments and assigns properties
+
+
+Inheritance --> a child class can inherit all the methods and properties from another class. by using extends keyword.
+
+extends --> relationship between parent and child
+
+how to pass a object to function as an arguments
+
+array of objects 
+
+promise in js ---> object that can encapsulate the result of an asynchronous operation.
+
+Events ---> it is some action that the user or browser does, whereas many HTML elements contain events attributes.
+
+EventsHandlers 
+
+Cookies in Javascript ---> a small text file stored in our computer used to remember information saved in name=value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
